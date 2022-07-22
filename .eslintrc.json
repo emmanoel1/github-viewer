@@ -4,8 +4,7 @@
         "node": true
     },
     "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
+        "trybe-frontend"
     ],
     "parserOptions": {
         "ecmaFeatures": {
@@ -14,9 +13,5 @@
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-    }
+    "plugins": ["react", "sonarjs"]
 }
