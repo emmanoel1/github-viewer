@@ -1,8 +1,7 @@
-const planetsApi = async () => {
-    const url = 'https://swapi-trybe.herokuapp.com/api/planets/';
+const api = async (url) => {
     const search = await fetch(url);
     const results = await search.json();
     return results;
 };
 
-export default planetsApi;
+export default api;
