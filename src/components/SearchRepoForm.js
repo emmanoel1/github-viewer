@@ -1,22 +1,25 @@
-import React from 'react';
-import allUsers from '../endpoints/allUsers';
-import useFetch from '../Hooks/useFetch';
+import React, { useState } from 'react';
 
 function SearchRepoForm() {
-  const [ data ] = useFetch(allUsers);
+  const [userName, setUserName] = useState('');
 
-  const reposList = !data ? <div></div> : data.map(repos => {
-    return(
-      <li key={repos.name}>
-        <p>{repos.name}</p>
-      </li>
-    )
-  })
+  console.log(userName);
 
   return(
-    <div>
-      { reposList }
-    </div>
+    <form>
+      <input
+        className="input is-primary is-medium"
+        name="user"
+        type="text"
+        placeholder="Enter a Github User"
+        onChange={({ target }) => setUserName(target.value)}
+      />
+      <button
+      type="submit"
+      >
+        Search
+      </button>
+    </form>
   )
 }
 
