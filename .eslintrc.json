@@ -3,11 +3,20 @@
         "es2021": true,
         "node": true
     },
-    "extends": "trybe-frontend",
-    "parser": "babel-eslint",
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
     "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
         "ecmaVersion": "latest",
         "sourceType": "module"
     },
-    "plugins": ["sonarjs"]
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+    }
 }
