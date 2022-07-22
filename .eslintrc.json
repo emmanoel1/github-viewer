@@ -4,7 +4,7 @@
         "node": true
     },
     "extends": [
-        "eslint:recommended",
+        "eslint:trybe-frontend",
         "plugin:react/recommended"
     ],
     "parserOptions": {
