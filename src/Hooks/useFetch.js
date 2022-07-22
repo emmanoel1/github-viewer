@@ -12,7 +12,7 @@ const useFetch = (url) => {
 
     }, [url])
 
-    return { result };
+    return [ result ];
 
 }
 
