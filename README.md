@@ -2,7 +2,7 @@
 
 # Instruções para rodar o projeto:
 
-`Entre no terminal`.
+`Acesse o terminal e siga os seguintes passos:`.
 
 1. Clone o repositório:
 
