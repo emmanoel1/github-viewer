@@ -1,15 +1,11 @@
 import React from 'react';
-// import ReposList from '../components/ReposPage/';
+import ReposCards from '../components/ReposPage/ReposCards';
 
 function Repos() {
     return(
       <div className="body-repos">
-        {/* <img
-          src={  }
-          alt={  }
-        /> */}
         Ola :)
-        {/* <ReposList /> */}
+        <ReposCards />
       </div>
     )
 }
