@@ -15,7 +15,7 @@ function SearchBtn() {
 
     setUserEndpoint(endpoint);
 
-    navigate('/')
+    navigate(`/${userFind}/repos`)
   }
 
   return(
@@ -24,7 +24,7 @@ function SearchBtn() {
         disabled={ userFind.length > 0 ? false : true }
         onClick={ ({ target }) => handleSearch(target) }
       >
-        Search
+        Go To Repos
       </button>
   )
 }
