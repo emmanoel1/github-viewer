@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import reposContext from '../context/reposContext';
+import ReposContext from '../context/ReposContext';
+import inputUser from '../endpoints/inputUser';
 
 function SearchRepoForm() {
-  const { setRepoUsers } = useContext(reposContext);
+  const { setUserFind, setUserEndpoint } = useContext(ReposContext);
 
   return(
     <form>
@@ -11,7 +12,10 @@ function SearchRepoForm() {
         name="user"
         type="text"
         placeholder="Enter a Github User"
-        onChange={({ target }) => setRepoUsers(target.value)}
+        onChange={({ target }) => {
+          setUserFind(target.value)
+          setUserEndpoint(inputUser(target.value))
+        }}
       />
       <button
       className="button is-primary"
