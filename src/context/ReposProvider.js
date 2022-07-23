@@ -4,13 +4,16 @@ import ReposContext from './ReposContext';
 
 function ReposProvider({ children }) {
   const [userFind, setUserFind] = useState('');
-  const [userEndpoint, setUserEndpoint] = useState(allUsers)
+  const [userEndpoint, setUserEndpoint] = useState(allUsers);
+  const [gitApiResponse, setGitApiResponse] = useState([]);
 
   const contextValue = {
     userFind,
     setUserFind,
     userEndpoint,
     setUserEndpoint,
+    gitApiResponse,
+    setGitApiResponse,
   };
 
   return (
