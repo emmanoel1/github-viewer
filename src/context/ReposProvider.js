@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
+import allUsers from '../endpoints/allUsers';
 import ReposContext from './ReposContext';
 
 function ReposProvider({ children }) {
-  const [repoUsers, setRepoUsers] = useState('');
+  const [userFind, setUserFind] = useState('');
+  const [userEndpoint, setUserEndpoint] = useState(allUsers)
 
   const contextValue = {
-    repoUsers,
-    setRepoUsers,
+    userFind,
+    setUserFind,
+    userEndpoint,
+    setUserEndpoint,
   };
-
+  
   return (
     <ReposContext.Provider value={contextValue}>
       {children}
