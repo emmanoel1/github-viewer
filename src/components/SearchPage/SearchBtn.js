@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import ReposContext from '../../context/ReposContext';
 import user from '../../endpoints/user';
 import { useNavigate } from 'react-router-dom';
+import setLocalStorage from '../../services/setLocalStorage';
 
 function SearchBtn() {
   const { userFind, setUserEndpoint } = useContext(ReposContext);
@@ -10,6 +11,8 @@ function SearchBtn() {
 
   const handleSearch = (target) => {
     target.disabled = true;
+
+    setLocalStorage('user', userFind);
 
     const endpoint = user(userFind);
 
