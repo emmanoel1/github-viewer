@@ -2,9 +2,7 @@ import React, { useContext } from 'react';
 import reposContext from '../context/reposContext';
 
 function SearchRepoForm() {
-  const { repoUsers, setRepoUsers } = useContext(reposContext);
-
-  console.log(repoUsers);
+  const { setRepoUsers } = useContext(reposContext);
 
   return(
     <form>
