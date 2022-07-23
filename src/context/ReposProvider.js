@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import reposContext from './reposContext';
+import ReposContext from './ReposContext';
 
 function ReposProvider({ children }) {
   const [repoUsers, setRepoUsers] = useState('');
@@ -10,10 +10,10 @@ function ReposProvider({ children }) {
   };
 
   return (
-    <reposContext.Provider value={contextValue}>
+    <ReposContext.Provider value={contextValue}>
       {children}
-    </reposContext.Provider>
+    </ReposContext.Provider>
   );
-}
+};
 
 export default ReposProvider;
