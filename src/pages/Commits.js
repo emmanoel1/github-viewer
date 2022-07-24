@@ -1,9 +1,9 @@
 import React from 'react';
-import BranchesCommits from '../components/BranchesCommitsPage/BranchesCommits';
+import BranchCommits from '../components/BranchesCommitsPage/BranchCommits';
 
 function Commits() {
     return(
-          <BranchesCommits />
+          <BranchCommits />
     )
 }
 
