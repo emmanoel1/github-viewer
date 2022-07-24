@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import '../ReposPage/repos.css'
 
-function RepoBranches() {
+function BranchesCommits() {
 
     const { repo } = useParams();
 
@@ -15,4 +15,4 @@ function RepoBranches() {
     )
 }
 
-export default RepoBranches;
+export default BranchesCommits;
