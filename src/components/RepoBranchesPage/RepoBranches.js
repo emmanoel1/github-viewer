@@ -26,7 +26,7 @@ function RepoBranches() {
     const is_error = api_response[0] === 'error';
 
     const renderRepo = can_render_branches && is_error === false ? (
-      <BranchCards res={api_response} repo={getParams.repo}/>
+      <BranchCards res={api_response} repo={getParams}/>
     ) : (
       <LoadingComponent />
    )
