@@ -1,5 +1,5 @@
 import React from 'react';
-import RepoBranches from '../components/ReposPage/RenderRepos';
+import RepoBranches from '../components/RepoBranchesPage/RepoBranches.js';
 
 function Repo() {
     return(
