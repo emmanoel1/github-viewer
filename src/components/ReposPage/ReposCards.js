@@ -5,7 +5,6 @@ import './repos.css'
 import cardAlt from '../../staticTexts/cardAlt';
 import { useNavigate } from 'react-router-dom';
 
-
 function ReposCards({ res }) {
 
   const name = res[0].owner.login;
@@ -43,7 +42,7 @@ function ReposCards({ res }) {
               <button
                 className="button card-footer-item is-primary is-rounded has-text-grey mb-3"
                 onClick={() => {
-                  navigate(`/${name}/repos/${repo.name}`);
+                  navigate(`/${repo.owner.login}/repos/${repo.name}`);
                 }}
               >
                 View Repository
