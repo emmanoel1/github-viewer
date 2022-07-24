@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import SearchRepo from './pages/SearchRepo';
 import Repos from './pages/Repos';
 import NavBar from './pages/NavBar';
+import Repo from './pages/Repo';
 
 function AllRoutes() {
     return(
@@ -11,7 +12,7 @@ function AllRoutes() {
       <Routes>
         <Route exact path="/" element={ <SearchRepo /> } />
         <Route exact path="/:user/repos" element={ <Repos /> } />
-        <Route exact path="/:repo" element={ <SearchRepo /> } />
+        <Route exact path="/:repo" element={ <Repo /> } />
       </Routes>
     </BrowserRouter>
     )
