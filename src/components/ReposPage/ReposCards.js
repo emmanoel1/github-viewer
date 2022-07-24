@@ -45,7 +45,7 @@ function ReposCards({ res }) {
                   navigate(`/${repo.owner.login}/repos/${repo.name}`);
                 }}
               >
-                View Repository
+                View Repository Branchs
               </button>
             </footer>
           </div>
