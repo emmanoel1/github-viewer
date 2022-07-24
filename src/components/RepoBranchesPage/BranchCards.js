@@ -18,7 +18,7 @@ function BranchCards({ res, repo}) {
     <div className="container">
       <h3 className="title has-text-centered is-size-4">
 
-        {`${repoName} Repositories:`}
+        {`${repoName} Branches:`}
 
       </h3>
       <div className="mt-5 columns is-centered is-8 is-variable">
