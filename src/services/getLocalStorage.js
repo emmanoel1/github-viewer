@@ -1,5 +1,8 @@
 const getLocalStorage = (key) => {
-    return JSON.parse(localStorage.getItem(key));
+    const getStored = JSON.parse(localStorage.getItem(key));
+    if (getStored !== null) {
+        return getStored;
+    }
 }
 
 export default getLocalStorage;
