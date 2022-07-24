@@ -10,6 +10,7 @@ function NavBarComponent() {
             <a href="/" className="navbar-item">
                 <img src={GitLogo} alt={ GitLogoAlt } />
             </a>
+            <p className="navbar-item" >Github Viewer</p>
             <a href='/' className="navbar-burger">
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
