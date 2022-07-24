@@ -6,7 +6,7 @@ import oneUser from '../../endpoints/oneUser'
 import ReposCards from './ReposCards';
 import setLocalStorage from '../../services/setLocalStorage';
 import getLocalStorage from '../../services/getLocalStorage';
-import ErrorComponent from './ErrorComponent';
+import ErrorComponent from '../apiError/ErrorComponent';
 
 function RenderRepos() {
   const { user } = useParams();
