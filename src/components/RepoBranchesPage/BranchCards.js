@@ -8,8 +8,6 @@ function BranchCards({ res, repo}) {
   const repoName = repo.repo;
   const userName = repo.owner;
 
-  console.log(repoName, userName);
-
   const navigate = useNavigate();
 
   return (
