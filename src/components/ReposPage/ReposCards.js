@@ -3,11 +3,15 @@ import userLogoAlt from '../../staticTexts/userLogoAlt';
 import cardImg from '../../images/laptop.webp'
 import './repos.css'
 import cardAlt from '../../staticTexts/cardAlt';
+import { useNavigate } from 'react-router-dom';
+
 
 function ReposCards({ res }) {
 
   const name = res[0].owner.login;
   const avatar = res[0].owner.avatar_url;
+
+  const navigate = useNavigate();
 
   return (
   <section className="section is-hidden-mobile">
@@ -36,7 +40,12 @@ function ReposCards({ res }) {
               <p className="title is-size-6 has-text-centered">{ repo.name }</p>
             </div>
             <footer className="card-footer">
-              <button className="button card-footer-item is-primary is-rounded has-text-grey mb-3">
+              <button
+                className="button card-footer-item is-primary is-rounded has-text-grey mb-3"
+                onClick={() => {
+                  navigate(`/${name}/repos/${repo.name}`);
+                }}
+              >
                 View Repository
               </button>
             </footer>

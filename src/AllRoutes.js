@@ -11,8 +11,9 @@ function AllRoutes() {
       <Routes>
         <Route exact path="/" element={ <SearchRepo /> } />
         <Route exact path="/:user/repos" element={ <Repos /> } />
+        <Route exact path="/repos/:repo" element={ <SearchRepo /> } />
       </Routes>
-      </BrowserRouter>
+    </BrowserRouter>
     )
 }
 
