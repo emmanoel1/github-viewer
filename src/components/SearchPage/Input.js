@@ -7,7 +7,7 @@ function Input() {
 
   return(
     <input
-      className="input center is-primary is-medium mb-3"
+      className="input center is-primary is-medium mb-3 has-text-centered"
       name="user"
       type="text"
       placeholder="Enter a Github User"
