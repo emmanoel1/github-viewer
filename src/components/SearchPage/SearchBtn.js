@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import ReposContext from '../../context/ReposContext';
 import { useNavigate } from 'react-router-dom';
 import searchBtnHandler from './functions/searchBtnHandler';
+import '../ReposPage/repos.css'
 
 function SearchBtn() {
   const { userFind } = useContext(ReposContext);
@@ -9,8 +10,9 @@ function SearchBtn() {
   const navigate = useNavigate();
 
   return(
+    <div>
       <button
-        className="button is-primary" 
+        className="button center is-primary is-rounded" 
         disabled={ userFind.length > 0 ? false : true }
         onClick={ ({ target }) =>
           searchBtnHandler(
@@ -21,6 +23,7 @@ function SearchBtn() {
       >
         Go To Repos
       </button>
+      </div>
   )
 }
 

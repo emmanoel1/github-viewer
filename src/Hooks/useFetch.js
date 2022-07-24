@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 
 const useFetch = (url) => {
-    console.log(url);
-
     const [result, setResult] = useState([]);
 
     useEffect(() => {

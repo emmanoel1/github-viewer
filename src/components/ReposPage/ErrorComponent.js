@@ -6,10 +6,11 @@ function ErrorComponent({ message }) {
   return(
     <div>
       <img
+        className='center-loadingImg'
           src={ errorImg }
           alt={ error_alt }
       />
-      {message}
+      <p className='has-text-centered has-text-grey is-size-3'>{message}</p>
     </div>
   )
 }

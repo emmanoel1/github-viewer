@@ -1,0 +1,31 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 38%;
+}
+
+.center-loginImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-top: 5em;
+  width: 80%;
+}
+
+.center-loadingImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  width: 40%;
+}
+
+.container {
+  background: #d3d1d1;
+  margin: auto;
+  width: 80vw;
+}
