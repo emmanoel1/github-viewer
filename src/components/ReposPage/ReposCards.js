@@ -13,7 +13,7 @@ function ReposCards({ res }) {
   const navigate = useNavigate();
 
   return (
-  <section className="section is-hidden-mobile">
+  <section className="section">
 
     <img
         className="center"
