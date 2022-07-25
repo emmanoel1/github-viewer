@@ -1,4 +1,5 @@
 # Projeto Github Viewer
+💡 Heroku pode demorar alguns segundos para carregar o app pela primeira vez.
 
 https://emmanoel1-github-viewer.herokuapp.com/
 
