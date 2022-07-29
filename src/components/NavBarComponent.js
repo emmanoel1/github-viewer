@@ -7,11 +7,11 @@ function NavBarComponent() {
     <nav className="navbar is-fixed-top">
       <div className="container">
         <div className="navbar-brand">
-            <a href="/" className="navbar-item">
+            <a href="https://github.com/" className="navbar-item">
                 <img src={GitLogo} alt={ GitLogoAlt } />
             </a>
             <p className="navbar-item" >Github Viewer</p>
-            <a href='/' className="navbar-burger">
+            <a role="button" aria-label="menu" aria-expanded="false" href="/" className="navbar-burger" data-target="navbarBasicExample">
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
@@ -23,19 +23,6 @@ function NavBarComponent() {
                 <a href="/" className="navbar-item">
                     Home
                 </a>
-            </div>
-
-            <div className="navbar-end">
-                <div className="navbar-item">
-                    <div className="buttons">
-                        <a href="/" className="button is-primary">
-                            <strong>Sing up</strong>
-                        </a>
-                        <a href="/" className="button is-light">
-                            Login
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
       </div>
