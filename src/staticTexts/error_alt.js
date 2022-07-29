@@ -1,3 +1,3 @@
-const error_alt = 'error logo image';
+const error_alt = 'error github logo';
 
 export default error_alt;

@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchRepoForm from '../components/SearchPage/SearchRepoForm';
-import JFY_logo from '../images/jfy-logo-apricot-1280.png';
-import JFY_alt from '../staticTexts/AltLogo';
+import git_logo from '../images/gitLogo.png';
+import git_alt from '../staticTexts/git_alt';
 import '../components/ReposPage/repos.css';
 
 function SearchRepo() {
@@ -9,8 +9,8 @@ function SearchRepo() {
       <div>
         <img
           className='center-loginImg'
-          src={ JFY_logo }
-          alt={ JFY_alt }
+          src={ git_logo }
+          alt={ git_alt }
         />
         <SearchRepoForm />
       </div>

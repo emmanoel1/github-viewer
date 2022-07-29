@@ -1,5 +1,5 @@
 import React from 'react';
-import errorImg from '../../images/jfy-marca-donts-2cores.jpg';
+import errorImg from '../../images/gitLogo.png';
 import error_alt from '../../staticTexts/error_alt.js';
 
 function ErrorComponent({ message }) {
