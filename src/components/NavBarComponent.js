@@ -5,15 +5,6 @@ import GitLogoAlt from "../staticTexts/GitLogoAlt";
 function NavBarComponent() {
   const [isActive, setIsActive] = useState(false);
 
-  const navMobileClick = () => {
-    if(isActive === false){
-      setIsActive(true);
-    }
-    if(isActive === true){
-      setIsActive(false);
-    }
-  }
-
   return(
     <nav className="navbar is-fixed-top">
       <div className="container">
@@ -28,7 +19,7 @@ function NavBarComponent() {
             aria-label="menu"
             aria-expanded="false"
             className={`navbar-burger ${isActive ? 'is-active' : ''}`}
-            onClick={navMobileClick}
+            onClick={ isActive ? setIsActive(false) : setIsActive(true) }
             >
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
