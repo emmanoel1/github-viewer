@@ -37,7 +37,7 @@ function BranchCards({ res, repo}) {
                   navigate(`/${userName}/repos/${repoName}/${branch.name}`);
                 }}
               >
-                View Commits
+                Commits
               </button>
             </footer>
           </div>

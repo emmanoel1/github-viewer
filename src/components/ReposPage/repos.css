@@ -41,7 +41,3 @@
 .commits-container {
   margin-top: 2em;
 }
-
-.input::placeholder {
-  font-size: 0.85em;
-}

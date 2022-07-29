@@ -9,7 +9,7 @@ function Input() {
     <input
       className="input center is-primary is-medium mb-3 has-text-centered"
       type="text"
-      placeholder="You User Name"
+      placeholder="User"
       onChange={({ target }) => setUserFind(target.value)}
   />
   )

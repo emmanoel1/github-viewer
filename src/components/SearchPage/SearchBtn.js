@@ -21,7 +21,7 @@ function SearchBtn() {
             navigate
         )}
       >
-        Go To Repos
+        Search Repositories
       </button>
       </div>
   )
