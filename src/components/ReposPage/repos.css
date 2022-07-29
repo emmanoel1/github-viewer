@@ -42,8 +42,6 @@
   margin-top: 2em;
 }
 
-@media only screen and (max-width: 600px) {
-  input::placeholder {
-    font-size: 1em;
-  }
+.input::placeholder {
+  font-size: 0.85em;
 }
