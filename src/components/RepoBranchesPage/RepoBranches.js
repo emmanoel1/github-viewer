@@ -18,7 +18,6 @@ function RepoBranches() {
     const getParams = {
       owner: getLocalStorage('user'),
       repo: getLocalStorage('repo'),
-      per_page: 100,
     }
 
     const [ api_response ] = useFetchBranches(getEndpoint, getParams);
