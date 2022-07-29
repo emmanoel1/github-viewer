@@ -49,3 +49,20 @@
   margin-top: 4em;
   width: 20%;
 }
+
+.searchRepo-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.searchRepo-input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  width: 10em;
+}

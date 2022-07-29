@@ -12,7 +12,7 @@ function SearchBtn() {
   return(
     <div>
       <button
-        className="button center is-primary is-rounded" 
+        className="button is-primary is-medium is-rounded searchRepo-button" 
         disabled={ userFind.length > 0 ? false : true }
         onClick={ ({ target }) =>
           searchBtnHandler(

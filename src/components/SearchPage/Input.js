@@ -7,7 +7,7 @@ function Input() {
 
   return(
     <input
-      className="input center is-primary is-medium mb-3 has-text-centered"
+      className="input is-primary is-medium mb-3 has-text-centered searchRepo-input"
       type="text"
       placeholder="User"
       onChange={({ target }) => setUserFind(target.value)}
