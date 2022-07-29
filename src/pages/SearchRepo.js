@@ -7,6 +7,7 @@ import '../components/ReposPage/repos.css';
 function SearchRepo() {
     return(
       <div>
+        <h1 className="center-login-title title has-text-centered">Github Viewer</h1>
         <img
           className='center-loginImg'
           src={ git_logo }
