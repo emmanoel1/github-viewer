@@ -33,3 +33,11 @@
   margin: auto;
   width: 80vw;
 }
+
+.branches-container {
+  margin-top: 2em;
+}
+
+.commits-container {
+  margin-top: 2em;
+}

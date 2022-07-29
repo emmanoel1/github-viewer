@@ -40,7 +40,7 @@ function BranchCommits() {
    const error = (<ErrorComponent message={api_response[1]}/>)
 
     return(
-        <div className='center-loginImg'>
+        <div className='commits-container'>
           {is_error === true ? error : renderRepo}
         </div>
     )
