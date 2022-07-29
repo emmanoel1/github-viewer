@@ -6,7 +6,7 @@ function ErrorComponent({ message }) {
   return(
     <div>
       <img
-        className='center-loadingImg'
+        className='errorComponent-img'
           src={ errorImg }
           alt={ error_alt }
       />

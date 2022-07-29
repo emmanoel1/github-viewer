@@ -41,3 +41,11 @@
 .commits-container {
   margin-top: 2em;
 }
+
+.errorComponent-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4em;
+  width: 20%;
+}
