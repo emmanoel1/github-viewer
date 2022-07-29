@@ -19,7 +19,7 @@ function NavBarComponent() {
             aria-label="menu"
             aria-expanded="false"
             className={`navbar-burger ${isActive ? 'is-active' : ''}`}
-            onClick={ isActive ? setIsActive(false) : setIsActive(true) }
+            onClick={ () => isActive ? setIsActive(false) : setIsActive(true) }
             >
                 <span aria-hidden="true" />
                 <span aria-hidden="true" />
