@@ -24,6 +24,7 @@ function BranchCommits() {
     const getParams = {
       owner: storagedUser,
       repo: storagedRepo,
+      per_page: 100,
     }
 
     const [ api_response ] = useFetchCommits(getEndpoint, getParams);
