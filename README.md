@@ -5,7 +5,7 @@
 
 ## Quer Testar o App?
 https://emmanoel1-github-viewer.herokuapp.com/
-💡 Devido a limitações do Heroku, pode demorar alguns segundos para carregar o app pela primeira vez.
+* 💡 Devido a limitações do Heroku, pode demorar alguns segundos para carregar o app pela primeira vez.
 
 # Instruções para rodar o projeto Localmente:
 
