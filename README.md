@@ -1,7 +1,7 @@
 # Projeto Github Viewer
-Busca de repositórios públicos de um usuário do GitHub
-lista todas as branches deste repositório
-selecionado uma branch, lista todos os commits daquela branch
+* Busca de repositórios públicos de um usuário do GitHub
+* lista todas as branches deste repositório
+* selecionado uma branch, lista todos os commits daquela branch
 
 ## Quer Testar o App?
 https://emmanoel1-github-viewer.herokuapp.com/
