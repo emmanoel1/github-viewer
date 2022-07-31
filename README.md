@@ -1,6 +1,8 @@
 <p align="center">
 <img align="center" src="./login.png" alt="emmanoel1" width="400"/>
+&nbsp;
 <img align="center" src="./profile-img.png" alt="emmanoel1" width="400"/>
+&nbsp;
 <img align="center" src="./projects.png" alt="emmanoel1" width="400"/>
 </p>
 
