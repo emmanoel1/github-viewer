@@ -5,8 +5,7 @@
 * selecionado uma branch, lista todos os commits daquela branch
 
 ## Quer Testar o App?
-https://emmanoel1-github-viewer.herokuapp.com/
-* 💡 Devido a limitações do Heroku, pode demorar alguns segundos para carregar o app pela primeira vez.
+emmanoel1-github-viewer.pages.dev
 
 # Instruções para rodar o projeto Localmente:
 
