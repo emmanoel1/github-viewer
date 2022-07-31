@@ -1,3 +1,9 @@
+<p align="center">
+<img align="center" src="./login.png" alt="emmanoel1" width="400"/>
+<img align="center" src="./profile-img.png" alt="emmanoel1" width="400" />
+<img align="center" src="./projects.png" alt="emmanoel1" width="400" />
+</p>
+
 # Projeto Github Viewer
 * Mobile First App
 * Busca de repositórios públicos de um usuário do GitHub
