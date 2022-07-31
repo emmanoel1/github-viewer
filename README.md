@@ -1,8 +1,8 @@
 # Projeto Github Viewer
 * Mobile First App
 * Busca de repositórios públicos de um usuário do GitHub
-* lista todas as branches deste repositório
-* selecionado uma branch, lista todos os commits daquela branch
+* Lista todas as branches deste repositório
+* Selecionado uma branch, lista todos os commits daquela branch
 
 ## Quer Testar o App?
 https://emmanoel1-github-viewer.pages.dev
