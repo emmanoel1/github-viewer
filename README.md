@@ -6,6 +6,7 @@
 
 # Projeto Github Viewer
 * Mobile First App
+* Loading Component
 * Busca de repositórios públicos de um usuário do GitHub
 * Lista todas as branches deste repositório
 * Selecionado uma branch, lista todos os commits daquela branch
